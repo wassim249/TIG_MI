@@ -83,6 +83,9 @@ The third axis of the project involved fine-tuning the Dreambooth 1.5 model with
 <h2> 5- Model Training </h2>
 The final axis of the project involved training the model on the preprocessed data to learn the patterns and styles of Moroccan interior design. By training the model on a large and diverse dataset, we were able to create a highly accurate and robust model that is capable of generating high-quality interior designs that are faithful to the Moroccan aesthetic.
  
+ <h2> 6 - presentation link </h2>
+[click here](https://www.canva.com/design/DAFiJs2Lu6s/39Iawa2t26QQ116_zZxnJA/edit?utm_content=DAFiJs2Lu6s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+ 
  <h2> Tig-mi visioned website</h2>
  
 
