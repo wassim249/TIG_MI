@@ -1,3 +1,5 @@
+## 🌟 **THINK.AI Morocco 2023 Hackathon diffusion category winner project**
+
 # Hackathon-AI-2023
 Firstly, we want to Thank think AI Morocco 2023 for the 3-days AI hackathon co-hosted by 1337AI and Math&amp;Maroc.
 
