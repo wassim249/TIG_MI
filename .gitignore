@@ -1,2 +1,4 @@
 /.idea
 .conda
+.vscode
+.env
