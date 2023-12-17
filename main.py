@@ -67,13 +67,11 @@ def inference_img2img(
 def main():
     """Main function
     """
-    app = gr.Blocks()
-
     theme = gr.themes.Soft(
-    primary_hue="red",
-   # secondary_hue="orange",
-    neutral_hue="stone",
-)
+        primary_hue="red",
+    # secondary_hue="orange",
+        neutral_hue="stone",
+    )
 
     app = gr.Blocks(theme=theme)
 
@@ -87,8 +85,9 @@ def main():
     """
 
     with app:
-        gr.HTML("""<img src="https://github.com/wassim249/TIG_MI/blob/v2/imgs/4_video.gif?raw=true" />""")
-        gr.HTML("""<h1 style="font-weight: 900; margin-bottom: 7px;margin-top:5px ;font-size=16px'">🏠 Tigmi: your Heritage,your place,our innovation</h1>""")
+        gr.HTML("""<div style="display:flex"><img src="https://github.com/wassim249/TIG_MI/blob/v2/imgs/logo.jpg?raw=true" width="50" /> &nbsp; <h1 style="font-weight: 900; margin-bottom: 7px;margin-top:5px ;font-size=16px'">Tigmi: your Heritage,your place,our innovation</div>""")
+        gr.HTML("""<img src="https://github.com/wassim249/TIG_MI/blob/v2/imgs/4_video.gif?raw=true" width="500" />""")
+
         gr.HTML(f"""<p style="margin-bottom: 7px;margin-top:5px ;font-size=16px;text-align: justify">{Disclaimer}</p>""")
         gr.HTML("""<b><i>This application is still in developement</i></b>""")
         with gr.Tabs():
@@ -105,6 +104,7 @@ def main():
                         num_inference_steps =  gr.Slider(label = "Number of inference steps:",
                                                         minimum = 10, maximum = 100, step = 1, value=30,info='A larger number of steps increases the quality of the output but it takes longer to generate')
 
+                    output_img = gr.Image(label="")
                     gr.HTML("""<h1 style="font-weight: 900; margin-bottom: 7px;margin-top:5px ;font-size=16px'">👉 Try out those examples !</h1>""")
                     gr.Examples(
                         [["https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", "Chefchaouen style","human,animals,cartoonic,blurry,modern",.3,30],
@@ -116,7 +116,7 @@ def main():
                         inference_img2img,
                         cache_examples=False,
                     )
-                    output_img = gr.Image(label="")
+                    
                     img_button = gr.Button('Generate image')
 
                 with gr.TabItem("📹 Image to video"):
