@@ -1,6 +1,6 @@
 
 
-# Hackathon-AI-2023
+# genAI Hackathon-2023
 Firstly, we want to Thank Morocco Ai 2023 for the one week AI hackathon.
 
 <div style="display:flex;">
@@ -13,7 +13,13 @@ Firstly, we want to Thank Morocco Ai 2023 for the one week AI hackathon.
   <p>Welcome to our AI-powered generative interior design project Tig-mi, where we explore the beauty of Moroccan culture through innovative AI techniques!</p>
   <!-- <img src="./img/img_3.png" alt="alt text" width="10%" height="auto" style="margin-left: 100px;"> -->
 </div>
+
+<div style="display:flex;">
+  <img src="./imgs/logo.jpg" hieght='100' />
+
+</div>
  
+## 👋 Introduction 
 
 As a demonstration we put in 3 different images:
 * The first one is Ihssane's room.
@@ -35,6 +41,8 @@ As a demonstration we put in 3 different images:
 <br>
 Our AI-powered generative interior design is an exciting fusion of traditional Moroccan aesthetics and modern technological innovation. By leveraging the power of AI, we are able to create designs that seamlessly integrate intricate Moroccan patterns, vibrant colors, and luxurious textures, all while maintaining a strong focus on functionality and practicality.
 
+## 📝 Description
+
 ![architecture](./imgs/architecture.png)
 
 Our project consists of 5 main steps:
@@ -44,7 +52,10 @@ Our project consists of 5 main steps:
 * **[stabilityai/sdxl-turbo](https://huggingface.co/stabilityai/sdxl-turbo):** Model generates a new image (Img2Img task) incorporating original features, custom elements, and enriched description.
 * **[stability-ai/stable-video-diffusion](https://replicate.com/stability-ai/stable-video-diffusion):** Generated image is used in a specialized video creation model (Img2Vid task).
 
-## Installation
+![architecture](./imgs/app_screenshot.png)
+
+
+## 🚀 Installation 
 
 To install the required packages, run the following command:
 
@@ -52,7 +63,7 @@ To install the required packages, run the following command:
 pip install -r requirements.txt
 ```
 
-## Usage
+## 💻 Usage
 
 To run the project, run the following command:
 
@@ -62,6 +73,10 @@ python main.py
 
 ![demonstration video](./imgs/4_video.gif)
 
- 
+## 👨‍💻 Team Members 
+
+* [Wassim EL BAKKOURI](https://www.linkedin.com/in/wassim-elbakkouri/)
+* [Ihssane Aoune](https://www.linkedin.com/in/ihssane-aoune-a911a9231/)
+* [Fatima Zahra Zeghli](https://www.linkedin.com/in/fatima-zahra-zeghli-2b3715216/)
  
  
