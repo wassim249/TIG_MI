@@ -44,6 +44,22 @@ Our project consists of 5 main steps:
 * **[stabilityai/sdxl-turbo](https://huggingface.co/stabilityai/sdxl-turbo):** Model generates a new image (Img2Img task) incorporating original features, custom elements, and enriched description.
 * **[stability-ai/stable-video-diffusion](https://replicate.com/stability-ai/stable-video-diffusion):** Generated image is used in a specialized video creation model (Img2Vid task).
 
+## Installation
+
+To install the required packages, run the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+To run the project, run the following command:
+
+```bash
+python main.py
+```
+
 ![demonstration video](./imgs/4_video.gif)
 
  
